@@ -44,7 +44,7 @@
     };
     rques {
       key-position = <16 17>;
-      bindings = <&kp LS(LA(FSLH)>; 
+      bindings = <&kp LS(LA(FSLH))>; 
     };
     minus {
       key-position = <26 27>;
