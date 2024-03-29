@@ -9,61 +9,61 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-  keymap {
-    combos {
-      compatible = "zmk,keymap";
-      // Enter bootloader in left half
-      lreset {
-        key-position = <1 2 3 4>;
-        bindings = <&bootloader>; 
-      };
-      // Enter bootloader in right half
-      rreset {
-        key-position = <7 8 9 10>;
-        bindings = <&bootloader>; 
-      };
-      // COMMON PROGRAMMING SYMBOLS
-      lexcl {
-        key-position = <2 3>;
-        bindings = <&kp LA(Q)>; 
-      };
-      rexcl {
-        key-position = <3 4>;
-        bindings = <&kp LS(Q)>; 
-      };
-      grave {
-        key-position = <2 4>;
-        bindings = <&kp LS(GRAVE)>; 
-      };
-      tilde {
-        key-position = <2 3 4>;
-        bindings = <&kp GRAVE>; 
-      };
-      lques {
-        key-position = <14 15>;
-        bindings = <&kp LS(FSLH)>; 
-      };
-      rques {
-        key-position = <16 17>;
-        bindings = <&kp LS(LA(FSLH))>; 
-      };
-      minus {
-        key-position = <26 27>;
-        bindings = <&kp MINUS>; 
-      };
-      plus {
-        key-position = <27 28>;
-        bindings = <&kp PLUS>; 
-      };
-      underscore {
-        key-position = <28 31>;
-        bindings = <&kp RS(MINUS)>; 
-      };
-      caret {
-        key-position = <14 16>;
-        bindings = <&kp CARET>; 
-      };
+  combos {
+    compatible = "zmk,keymap";
+    // Enter bootloader in left half
+    lreset {
+      key-position = <1 2 3 4>;
+      bindings = <&bootloader>; 
     };
+    // Enter bootloader in right half
+    rreset {
+      key-position = <7 8 9 10>;
+      bindings = <&bootloader>; 
+    };
+    // COMMON PROGRAMMING SYMBOLS
+    lexcl {
+      key-position = <2 3>;
+      bindings = <&kp LA(Q)>; 
+    };
+    rexcl {
+      key-position = <3 4>;
+      bindings = <&kp LS(Q)>; 
+    };
+    grave {
+      key-position = <2 4>;
+      bindings = <&kp LS(GRAVE)>; 
+    };
+    tilde {
+      key-position = <2 3 4>;
+      bindings = <&kp GRAVE>; 
+    };
+    lques {
+      key-position = <14 15>;
+      bindings = <&kp LS(FSLH)>; 
+    };
+    rques {
+      key-position = <16 17>;
+      bindings = <&kp LS(LA(FSLH)>; 
+    };
+    minus {
+      key-position = <26 27>;
+      bindings = <&kp MINUS>; 
+    };
+    plus {
+      key-position = <27 28>;
+      bindings = <&kp PLUS>; 
+    };
+    underscore {
+      key-position = <28 31>;
+      bindings = <&kp RS(MINUS)>; 
+    };
+    caret {
+      key-position = <14 16>;
+      bindings = <&kp CARET>; 
+    };
+  };
+  keymap {
     compatible = "zmk,keymap";
     base {
       bindings = <
