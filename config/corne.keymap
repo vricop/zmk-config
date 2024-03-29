@@ -27,7 +27,7 @@
         key-position = <2 3>;
         bindings = <&kp LA(Q)>; 
       };
-      lexcl {
+      rexcl {
         key-position = <3 4>;
         bindings = <&kp LS(Q)>; 
       };
@@ -112,7 +112,7 @@
            &trans        &trans        &trans        &trans        &trans        &trans            &trans        &kp LBK       &kp RBKT      &trans        &trans        &trans
       // ┗━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━┫   ┣━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━┛
       //                                           ┃  ALT        ┃  ADJUST     ┃  COMMAND    ┃   ┃  SPC        ┃  SYMB       ┃  ESC        ┃
-                                                     &trans        &mo 3       &trans              &trans        &trans        &trans
+                                                     &trans        &mo 3         &trans            &trans        &trans        &trans
       //                                           ┗━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━━┛   ┗━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━━┛
       >;
     };
