@@ -109,7 +109,7 @@
            &trans        &trans        &trans        &trans        &trans        &trans            &trans        &kp LPAR      &kp RPAR      &trans        &trans        &trans
       // ┣━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━┫   ┣━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━┫
       // ┃  CTRL       ┃  Z          ┃  X          ┃  C          ┃  V          ┃  B          ┃   ┃  N          ┃  [{         ┃  ]}         ┃  .›         ┃  /?         ┃             ┃
-           &trans        &trans        &trans        &trans        &trans        &trans            &trans        &kp LBK       &kp RBKT      &trans        &trans        &trans
+           &trans        &trans        &trans        &trans        &trans        &trans            &trans        &kp LBKT      &kp RBKT      &trans        &trans        &trans
       // ┗━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━┫   ┣━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━┛
       //                                           ┃  ALT        ┃  ADJUST     ┃  COMMAND    ┃   ┃  SPC        ┃  SYMB       ┃  ESC        ┃
                                                      &trans        &mo 3         &trans            &trans        &trans        &trans
