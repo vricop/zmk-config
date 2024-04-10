@@ -13,6 +13,9 @@
 
 &mt {
   flavor = "tap-preferred";
+  // Enables repeat on tap + tap-hold
+  // Source: https://zmk.dev/docs/behaviors/hold-tap#quick-tap-ms
+  quick-tap-ms = <200>;
 };
 
 / {
