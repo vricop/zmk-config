@@ -104,7 +104,7 @@
     };
     underscore {
       key-positions = <28 31>;
-      bindings = <&kp RS(MINUS)>; 
+      bindings = <&kp UNDER>; 
     };
     at {
       key-positions = <17 18>;
@@ -112,7 +112,7 @@
     };
     or {
       key-positions = <4 7>;
-      bindings = <&kp PIPE2>; 
+      bindings = <&kp PIPE>; 
     };
     and {
       key-positions = <16 19>;
@@ -134,7 +134,7 @@
            &kp LCTRL     &kp Z         &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH      &none
       // ┗━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━━╋━━━━━36━━━━━━╋━━━━━37━━━━━━╋━━━━━38━━━━━━┫   ┣━━━━━39━━━━━━╋━━━━━40━━━━━━╋━━━━━41━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━┛
       //                                           ┃  ALT        ┃  NAV        ┃  GUI        ┃   ┃  SPC        ┃  SYMB       ┃  ESC        ┃ 
-                                                     &kp LALT      &mo 1         &kp LGUI          &kp SPACE     &mo 2         &kp ESC                                           
+                                                     &kp LALT      &mo 1         &kp LGUI          &ht_hp RC(RS(RA(RCMD))) SPACE &mo 2 &kp ESC                                           
       //                                           ┗━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━━┛   ┗━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━━┛
       >;
     };
