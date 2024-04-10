@@ -209,10 +209,10 @@
            &none         &none         &none         &none         &none         &none             &none         &kp C_PP      &kp C_MUTE    &none         &none         &none
       // ┣━━━━━12━━━━━━╋━━━━━13━━━━━━╋━━━━━14━━━━━━╋━━━━━15━━━━━━╋━━━━━16━━━━━━╋━━━━━17━━━━━━┫   ┣━━━━━18━━━━━━╋━━━━━19━━━━━━╋━━━━━20━━━━━━╋━━━━━━21━━━━━╋━━━━━━22━━━━━╋━━━━━23━━━━━━┫
       // ┃  BTCLR      ┃  BT1        ┃  BT2        ┃  BT3        ┃  BT4        ┃  BT5        ┃   ┃             ┃  VOL-       ┃ VOL+        ┃             ┃             ┃             ┃
-           &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &none         &kp C_VOL_UP &kp C_VOL_DN   &none         &none         &none
+           &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &none         &kp C_VOL_UP  &kp C_VOL_DN   &none         &none         &none
       // ┣━━━━━24━━━━━━╋━━━━━25━━━━━━╋━━━━━26━━━━━━╋━━━━━27━━━━━━╋━━━━━28━━━━━━╋━━━━━29━━━━━━┫   ┣━━━━━30━━━━━━╋━━━━━31━━━━━━╋━━━━━32━━━━━━╋━━━━━━33━━━━━╋━━━━━━34━━━━━╋━━━━━35━━━━━━┫
       // ┃             ┃             ┃             ┃             ┃             ┃             ┃   ┃             ┃             ┃             ┃             ┃             ┃             ┃
-           &none         &none         &none         &none         &none         &none             &none         &none         &none         &none         &none         &none
+           &none         &none         &none         &none         &bootloader   &none             &none         &bootloader   &none         &none         &none         &none
       // ┗━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━━╋━━━━━36━━━━━━╋━━━━━37━━━━━━╋━━━━━38━━━━━━┫   ┣━━━━━39━━━━━━╋━━━━━40━━━━━━╋━━━━━41━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━┛
       //                                           ┃  ALT        ┃  LAYER 1    ┃  COMMAND    ┃   ┃  SPC        ┃  ADJUST     ┃  ESC        ┃
                                                      &none         &trans        &trans            &trans        &trans        &trans
