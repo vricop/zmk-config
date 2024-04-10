@@ -46,7 +46,7 @@
     };
     rques {
       key-positions = <15 17>;
-      bindings = <&kp LS(FSLH)>;
+      bindings = <&kp QMARKLS(FSLH)>;
     };
     minus {
       key-positions = <26 27>;
@@ -133,7 +133,7 @@
       bindings = <&kp FSLH>;
     };
     bslh {
-      key-positions = <19 8>;
+      key-positions = <8 21>;
       bindings = <&kp BSLH>;
     };
     prcnt {
