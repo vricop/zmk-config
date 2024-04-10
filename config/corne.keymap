@@ -8,9 +8,15 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-#define HYPR_SPC RC(RS(RA(RCMD))) SPACE
+#define HYPR_SPC &mt_bl RC(RS(RA(RCMD))) SPACE
 
 / {
+  behaviors {
+    mt_bl: mod_tap {
+      compatible = "zmk,behavior-hold-tap";
+      flavor = "balanced-preferred";
+    };
+  };
   combos {
     compatible = "zmk,combos";
     // Enter bootloader in left half
@@ -156,7 +162,7 @@
            &kp LCTRL     &kp Z         &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH      &none
       // ┗━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━━╋━━━━━36━━━━━━╋━━━━━37━━━━━━╋━━━━━38━━━━━━┫   ┣━━━━━39━━━━━━╋━━━━━40━━━━━━╋━━━━━41━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━┛
       //                                           ┃  ALT        ┃  NAV        ┃  GUI        ┃   ┃  SPC        ┃  SYMB       ┃  ESC        ┃ 
-                                                     &kp LALT      &mo 1         &kp LGUI          &mt HYPR_SPC  &mo 2         &kp ESC                                           
+                                                     &kp LALT      &mo 1         &kp LGUI          HYPR_SPC      &mo 2         &kp ESC                                           
       //                                           ┗━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━━┛   ┗━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━━┛
       >;
     };
