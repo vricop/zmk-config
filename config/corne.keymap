@@ -62,13 +62,21 @@
       key-positions = <14 15 16>;
       bindings = <&kp DLLR>;
     };
+    lpar {
+      key-positions = <7 8>;
+      bindings = <&kp LPAR>;
+    };
+    rpar {
+      key-positions = <8 9>;
+      bindings = <&kp RPAR>;
+    };
     lbrk {
       key-positions = <19 20>;
-      bindings = <&kp LBRK>;
+      bindings = <&kp LBKT>;
     };
     rbrk {
       key-positions = <20 21>;
-      bindings = <&kp RBRK>;
+      bindings = <&kp RBKT>;
     };
     lbrc {
       key-positions = <31 32>;
