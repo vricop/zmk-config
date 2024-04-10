@@ -13,7 +13,7 @@
 
 &mt {
   flavor = "tap-preferred";
-}
+};
 
 / {
   combos {
