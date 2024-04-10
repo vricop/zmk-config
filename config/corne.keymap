@@ -14,101 +14,101 @@
     // Enter bootloader in left half
     lreset {
       key-positions = <1 2 3 4>;
-      bindings = <&bootloader>; 
+      bindings = <&bootloader>;
     };
     // Enter bootloader in right half
     rreset {
       key-positions = <7 8 9 10>;
-      bindings = <&bootloader>; 
+      bindings = <&bootloader>;
     };
     // COMMON PROGRAMMING SYMBOLS
     lexcl {
       key-positions = <2 3>;
-      bindings = <&kp LA(EXCL)>; 
+      bindings = <&kp LA(EXCL)>;
     };
     rexcl {
       key-positions = <3 4>;
-      bindings = <&kp EXCL>; 
+      bindings = <&kp EXCL>;
     };
     grave {
       key-positions = <2 4>;
-      bindings = <&kp GRAVE>; 
+      bindings = <&kp GRAVE>;
     };
     tilde {
       key-positions = <2 3 4>;
-      bindings = <&kp TILDE2>; 
+      bindings = <&kp TILDE2>;
     };
     lques {
       key-positions = <14 15>;
-      bindings = <&kp LS(LA(FSLH))>; 
+      bindings = <&kp LS(LA(FSLH))>;
     };
     rques {
       key-positions = <16 17>;
-      bindings = <&kp LS(FSLH)>; 
+      bindings = <&kp LS(FSLH)>;
     };
     minus {
       key-positions = <26 27>;
-      bindings = <&kp MINUS>; 
+      bindings = <&kp MINUS>;
     };
     plus {
       key-positions = <27 28>;
-      bindings = <&kp PLUS>; 
+      bindings = <&kp PLUS>;
     };
     caret {
       key-positions = <14 16>;
-      bindings = <&kp CARET>; 
+      bindings = <&kp CARET>;
     };
     dollar {
       key-positions = <14 15 16>;
-      bindings = <&kp DLLR>; 
+      bindings = <&kp DLLR>;
     };
     lbrk {
       key-positions = <19 20>;
-      bindings = <&kp LBRK>; 
+      bindings = <&kp LBRK>;
     };
     rbrk {
       key-positions = <20 21>;
-      bindings = <&kp RBRK>; 
+      bindings = <&kp RBRK>;
     };
     lbrc {
       key-positions = <31 32>;
-      bindings = <&kp LBRC>; 
+      bindings = <&kp LBRC>;
     };
     rbrc {
       key-positions = <32 33>;
-      bindings = <&kp RBRC>; 
+      bindings = <&kp RBRC>;
     };
     asterisk {
       key-positions = <31 33>;
-      bindings = <&kp ASTRK>; 
+      bindings = <&kp ASTRK>;
     };
     sqt {
       key-positions = <7 9>;
-      bindings = <&kp SQT>; 
+      bindings = <&kp SQT>;
     };
     dqt {
       key-positions = <7 8 9>;
-      bindings = <&kp DQT>; 
+      bindings = <&kp DQT>;
     };
     hash {
       key-positions = <31 32 33>;
-      bindings = <&kp HASH>; 
+      bindings = <&kp HASH>;
     };
     equal {
       key-positions = <19 21>;
-      bindings = <&kp EQUAL>; 
+      bindings = <&kp EQUAL>;
     };
     colon {
       key-positions = <19 20 21>;
-      bindings = <&kp COLON>; 
+      bindings = <&kp COLON>;
     };
     underscore {
       key-positions = <28 31>;
-      bindings = <&kp UNDER>; 
+      bindings = <&kp UNDER>;
     };
     at {
       key-positions = <17 18>;
-      bindings = <&kp AT>; 
+      bindings = <&kp AT>;
     };
     or {
       key-positions = <4 7>;
@@ -116,7 +116,7 @@
     };
     and {
       key-positions = <16 19>;
-      bindings = <&kp AMPS>; 
+      bindings = <&kp AMPS>;
     };
   };
   keymap {
