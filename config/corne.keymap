@@ -32,11 +32,11 @@
     };
     grave {
       key-positions = <2 4>;
-      bindings = <&kp LS(GRAVE)>; 
+      bindings = <&kp GRAVE>; 
     };
     tilde {
       key-positions = <2 3 4>;
-      bindings = <&kp GRAVE>; 
+      bindings = <&kp TILDE2>; 
     };
     lques {
       key-positions = <14 15>;
