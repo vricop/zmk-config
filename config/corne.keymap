@@ -142,11 +142,11 @@
     };
     bslh {
       key-positions = <8 21>;
-      bindings = <&kp BACKSLASH>;
+      bindings = <&kp NUBS>;
     };
     prcnt {
       key-positions = <7 33>;
-      bindings = <&kp PERCENT>;
+      bindings = <&kp LS(N5)>;
     };
   };
   keymap {
