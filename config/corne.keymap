@@ -8,6 +8,8 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+#define HYPR_SPC RC(RS(RA(RCMD))) SPACE
+
 / {
   combos {
     compatible = "zmk,combos";
@@ -24,7 +26,7 @@
     // COMMON PROGRAMMING SYMBOLS
     lexcl {
       key-positions = <2 3>;
-      bindings = <&kp LA(EXCL)>;
+      bindings = <&kp LA(N1)>;
     };
     rexcl {
       key-positions = <3 4>;
@@ -43,7 +45,7 @@
       bindings = <&kp LS(LA(FSLH))>;
     };
     rques {
-      key-positions = <16 17>;
+      key-positions = <15 17>;
       bindings = <&kp LS(FSLH)>;
     };
     minus {
@@ -126,6 +128,18 @@
       key-positions = <16 19>;
       bindings = <&kp AMPS>;
     };
+    fslh {
+      key-positions = <19 8>;
+      bindings = <&kp FSLH>;
+    };
+    bslh {
+      key-positions = <19 8>;
+      bindings = <&kp BSLH>;
+    };
+    prcnt {
+      key-positions = <7 33>;
+      bindings = <&kp PRCNT>;
+    };
   };
   keymap {
     compatible = "zmk,keymap";
@@ -142,7 +156,7 @@
            &kp LCTRL     &kp Z         &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH      &none
       // ┗━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━━╋━━━━━36━━━━━━╋━━━━━37━━━━━━╋━━━━━38━━━━━━┫   ┣━━━━━39━━━━━━╋━━━━━40━━━━━━╋━━━━━41━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━┛
       //                                           ┃  ALT        ┃  NAV        ┃  GUI        ┃   ┃  SPC        ┃  SYMB       ┃  ESC        ┃ 
-                                                     &kp LALT      &mo 1         &kp LGUI          &mt RC(RS(RA(RCMD))) SPACE &mo 2 &kp ESC                                           
+                                                     &kp LALT      &mo 1         &kp LGUI          &mt HYPR_SPC  &mo 2         &kp ESC                                           
       //                                           ┗━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━━┛   ┗━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━━┛
       >;
     };
