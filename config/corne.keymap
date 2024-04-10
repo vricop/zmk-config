@@ -46,7 +46,7 @@
     };
     tilde {
       key-positions = <2 3 4>;
-      bindings = <&kp TILDE2>;
+      bindings = <&kp TILDE>;
     };
     lques {
       key-positions = <14 15>;
@@ -142,11 +142,11 @@
     };
     bslh {
       key-positions = <8 21>;
-      bindings = <&kp BSLH>;
+      bindings = <&kp BACKSLASH>;
     };
     prcnt {
       key-positions = <7 33>;
-      bindings = <&kp PRCNT>;
+      bindings = <&kp PERCENT>;
     };
   };
   keymap {
