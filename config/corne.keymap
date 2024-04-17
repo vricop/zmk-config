@@ -19,6 +19,36 @@
 };
 
 / {
+  macros {
+    brc: brc {
+      compatible = "zmk,behaviors-macro"; 
+      bindings = <&kp LBRC &kp RBRC &kp LEFT>;
+    };
+    brk: brk {
+      compatible = "zmk,behaviors-macro"; 
+      bindings = <&kp LBKT &kp RBKT &kp LEFT>;
+    };
+    par: par {
+      compatible = "zmk,behaviors-macro"; 
+      bindings = <&kp LPAR &kp RPAR &kp LEFT>;
+    };
+    squot: squot {
+      compatible = "zmk,behaviors-macro"; 
+      bindings = <&kp SQT &kp SQT &kp LEFT>;
+    };
+    dquot: dquot {
+      compatible = "zmk,behaviors-macro"; 
+      bindings = <&kp DQT &kp DQT &kp LEFT>;
+    };
+    quest: quest {
+      compatible = "zmk,behaviors-macro"; 
+      bindings = <&kp <&kp LS(LA(FSLH)) &kp QMARK &kp LEFT>;
+    };
+    excl: excl {
+      compatible = "zmk,behaviors-macro"; 
+      bindings = <&kp <&kp LA(N1) &kp EXCL &kp LEFT>;
+    };
+  };
   combos {
     compatible = "zmk,combos";
     // Enter bootloader in left half
@@ -191,11 +221,11 @@
       // ┃  TAB        ┃  1!         ┃  2@         ┃  3#         ┃  4$         ┃  5%         ┃   ┃  6^         ┃   7*        ┃   8*        ┃   9(        ┃   0)        ┃  BS         ┃
            &trans        &kp N1        &kp N2        &kp N3        &kp N4        &kp N5            &kp N6        &kp N7        &kp N8        &kp N9        &kp N0        &trans
       // ┣━━━━━12━━━━━━╋━━━━━13━━━━━━╋━━━━━14━━━━━━╋━━━━━15━━━━━━╋━━━━━16━━━━━━╋━━━━━17━━━━━━┫   ┣━━━━━18━━━━━━╋━━━━━19━━━━━━╋━━━━━20━━━━━━╋━━━━━━21━━━━━╋━━━━━━22━━━━━╋━━━━━23━━━━━━┫
-      // ┃  SHIFT      ┃  A          ┃  S          ┃  D          ┃  F          ┃  G          ┃   ┃  H          ┃  (          ┃  )          ┃  L          ┃  ;:         ┃  ENT        ┃
-           &trans        &trans        &trans        &trans        &trans        &trans            &trans        &kp LPAR      &kp RPAR      &trans        &trans        &trans
+      // ┃  SHIFT      ┃  A          ┃  S          ┃  ''         ┃  ""         ┃  G          ┃   ┃  H          ┃  ()         ┃  []         ┃  L          ┃  ;:         ┃  ENT        ┃
+           &trans        &trans        &excl         &sqt          &dqt          &trans            &par          &brc          &brk          &trans        &trans        &trans
       // ┣━━━━━24━━━━━━╋━━━━━25━━━━━━╋━━━━━26━━━━━━╋━━━━━27━━━━━━╋━━━━━28━━━━━━╋━━━━━29━━━━━━┫   ┣━━━━━30━━━━━━╋━━━━━31━━━━━━╋━━━━━32━━━━━━╋━━━━━━33━━━━━╋━━━━━━34━━━━━╋━━━━━35━━━━━━┫
-      // ┃  CTRL       ┃  Z          ┃  X          ┃  C          ┃  V          ┃  B          ┃   ┃  N          ┃  [{         ┃  ]}         ┃  .›         ┃  /?         ┃             ┃
-           &trans        &trans        &trans        &trans        &trans        &trans            &trans        &kp LBKT      &kp RBKT      &trans        &trans        &trans
+      // ┃  CTRL       ┃  Z          ┃  X          ┃  C          ┃  V          ┃  B          ┃   ┃  N          ┃  {}         ┃             ┃  .›         ┃  /?         ┃             ┃
+           &trans        &trans        &trans        &trans        &trans        &trans            &trans        &brc          &trans        &trans        &trans        &trans
       // ┗━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━━╋━━━━━36━━━━━━╋━━━━━37━━━━━━╋━━━━━38━━━━━━┫   ┣━━━━━39━━━━━━╋━━━━━40━━━━━━╋━━━━━41━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━┛
       //                                           ┃  ALT        ┃  ADJUST     ┃  COMMAND    ┃   ┃  SPC        ┃  SYMB       ┃  ESC        ┃
                                                      &trans        &mo 3         &trans            &trans        &trans        &trans
