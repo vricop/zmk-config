@@ -42,11 +42,11 @@
     };
     quest: quest {
       compatible = "zmk,behaviors-macro"; 
-      bindings = <&kp <&kp LS(LA(FSLH)) &kp QMARK &kp LEFT>;
+      bindings = <&kp &kp LS(LA(FSLH)) &kp QMARK &kp LEFT>;
     };
     excl: excl {
       compatible = "zmk,behaviors-macro"; 
-      bindings = <&kp <&kp LA(N1) &kp EXCL &kp LEFT>;
+      bindings = <&kp &kp LA(N1) &kp EXCL &kp LEFT>;
     };
   };
   combos {
