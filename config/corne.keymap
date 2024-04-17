@@ -22,31 +22,31 @@
   macros {
     brc: brc {
       compatible = "zmk,behavior-macro"; 
-      bindings = <&kp LBRC &kp RBRC &kp LEFT>;
+      bindings = <&macro_tap &kp LBRC &kp RBRC &kp LEFT>;
     };
     brk: brk {
       compatible = "zmk,behavior-macro"; 
-      bindings = <&kp LBKT &kp RBKT &kp LEFT>;
+      bindings = <&macro_tap &kp LBKT &kp RBKT &kp LEFT>;
     };
     par: par {
       compatible = "zmk,behavior-macro"; 
-      bindings = <&kp LPAR &kp RPAR &kp LEFT>;
+      bindings = <&macro_tap &kp LPAR &kp RPAR &kp LEFT>;
     };
     squot: squot {
       compatible = "zmk,behavior-macro"; 
-      bindings = <&kp SQT &kp SQT &kp LEFT>;
+      bindings = <&macro_tap &kp SQT &kp SQT &kp LEFT>;
     };
     dquot: dquot {
       compatible = "zmk,behavior-macro"; 
-      bindings = <&kp DQT &kp DQT &kp LEFT>;
+      bindings = <&macro_tap &kp DQT &kp DQT &kp LEFT>;
     };
     quest: quest {
       compatible = "zmk,behavior-macro"; 
-      bindings = <&kp LS(LA(FSLH)) &kp QMARK &kp LEFT>;
+      bindings = <&macro_tap &kp LS(LA(FSLH)) &kp QMARK &kp LEFT>;
     };
     excl: excl {
       compatible = "zmk,behavior-macro"; 
-      bindings = <&kp LA(N1) &kp EXCL &kp LEFT>;
+      bindings = <&macro_tap &kp LA(N1) &kp EXCL &kp LEFT>;
     };
   };
   combos {
