@@ -1,4 +1,4 @@
-# Corne keboard
+# Corne keyboard
 
 This is my wireless corne keyboard config. I use lots of combos for programming symbols
 instead of relying on a layer. I also added some cool macros to enter a sequence of paired-symbols[^*]
