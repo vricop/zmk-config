@@ -206,8 +206,8 @@
       // ┃  CTRL       ┃  Z          ┃  X          ┃  C          ┃  V          ┃  B          ┃   ┃  N          ┃  M          ┃  ,‹         ┃  .›         ┃  /?         ┃             ┃
            &kp LCTRL     &kp Z         &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH      &kp CAPS
       // ┗━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━━╋━━━━━36━━━━━━╋━━━━━37━━━━━━╋━━━━━38━━━━━━┫   ┣━━━━━39━━━━━━╋━━━━━40━━━━━━╋━━━━━41━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━┛
-      //                                           ┃  ALT        ┃  NAV        ┃ GUI/SPC     ┃   ┃ HYPR/SPC    ┃  SYMB       ┃  ESC        ┃ 
-                                                     &kp LALT      &mo 1         GUI_SPC           HYPR_SPC      &mo 2         &kp ESC                                           
+      //                                           ┃  ALT        ┃  NAV        ┃ GUI/SPC     ┃   ┃ HYPR/SPC    ┃  SYMB       ┃  ESC        ┃
+                                                     &kp LALT      &mo 1         &mt LGUI SPACE    &mt RC(RS(RA(RCMD))) SPACE   &mo 2         &kp ESC
       //                                           ┗━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━━┛   ┗━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━━┛
       >;
     };
